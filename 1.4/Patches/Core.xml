@@ -2,22 +2,40 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/terrainsByFertility</xpath>
+				<value>
+					<terrainsByFertility>
+						<li>
+							<terrain>RG_TemperateSoil</terrain>
+							<min>-999</min>
+							<max>0.87</max>
+						</li>
+						<li>
+							<terrain>SoilRich</terrain>
+							<min>0.87</min>
+							<max>999</max>
+						</li>
+					</terrainsByFertility>
+				</value>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
 				<value>
-					<RG_Plant_TemperateIvy>4</RG_Plant_TemperateIvy>
+					<RG_Plant_TemperateIvy>3</RG_Plant_TemperateIvy>
+					<RG_Plant_TemperateFern>0.6</RG_Plant_TemperateFern>
+					<RG_Plant_BlueDandelion>0.5</RG_Plant_BlueDandelion>
+					<RG_Plant_RedDandelion>0.5</RG_Plant_RedDandelion>
 <!--					<RG-TF_Plant_TreeCornish>0.8</RG-TF_Plant_TreeCornish>
 					<RG-TF_Plant_MountainDandelion>0.4</RG-TF_Plant_MountainDandelion>
 					<RG-TF_Plant_NordicDandelion>0.2</RG-TF_Plant_NordicDandelion>
 					<RG-TF_Plant_Cathedralis>0.4</RG-TF_Plant_Cathedralis>
 					<RG-TF_Cibarius>0.05</RG-TF_Cibarius>
-					<RG-TF_Plant_TemperateFern>1.0</RG-TF_Plant_TemperateFern>-->
 				</value>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
-				<value>
-<!--					<RG-TF_Plant_TreeCornish>1.0</RG-TF_Plant_TreeCornish>
+				<value>				<RG-TF_Plant_TreeCornish>1.0</RG-TF_Plant_TreeCornish>
 					<RG-TF_Plant_TemperateMoss>0.8</RG-TF_Plant_TemperateMoss>
 					<RG-TF_Plant_MountainDandelion>0.4</RG-TF_Plant_MountainDandelion>
 					<RG-TF_Cibarius>0.02</RG-TF_Cibarius>
