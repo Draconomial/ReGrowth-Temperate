@@ -26,19 +26,23 @@
 					<RG_Plant_TemperateFern>0.6</RG_Plant_TemperateFern>
 					<RG_Plant_BlueDandelion>0.5</RG_Plant_BlueDandelion>
 					<RG_Plant_RedDandelion>0.5</RG_Plant_RedDandelion>
-<!--					<RG-TF_Plant_TreeCornish>0.8</RG-TF_Plant_TreeCornish>
-					<RG-TF_Plant_Cathedralis>0.4</RG-TF_Plant_Cathedralis>
-					<RG-TF_Cibarius>0.05</RG-TF_Cibarius>
+					<RG_Plant_TreeCornish>0.6</RG_Plant_TreeCornish>
+					<RG_Cibarius>0.05</RG_Cibarius>
 				</value>
+			</li>
+<!--
+
+
+
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
 				<value>				<RG-TF_Plant_TreeCornish>1.0</RG-TF_Plant_TreeCornish>
 					<RG-TF_Plant_TemperateMoss>0.8</RG-TF_Plant_TemperateMoss>
 					<RG-TF_Cibarius>0.02</RG-TF_Cibarius>
-					<RG-TF_Plant_TemperateFern>0.4</RG-TF_Plant_TemperateFern>-->
+					<RG-TF_Plant_TemperateFern>0.4</RG-TF_Plant_TemperateFern>
 				</value>
-			</li>
+			</li>-->
 		</operations>
 	</Operation>
 </Patch>
