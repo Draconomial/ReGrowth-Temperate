@@ -11,7 +11,7 @@
 		</statBases>
 		<pathCost>14</pathCost>
 		<graphicData>
-			<texPath>Things/Plant/GrasslandTallGrass</texPath>
+			<texPath>Things/Plant/PlainlandTallGrass</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowDepth>0.5</hideAtSnowDepth>
