@@ -94,6 +94,8 @@
 		<plant>
 			<fertilitySensitivity>0.0</fertilitySensitivity>
 			<growDays>2.5</growDays>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowResearchPrerequisites/>
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
@@ -126,6 +128,8 @@
 		<plant>
 			<fertilitySensitivity>0.0</fertilitySensitivity>
 			<growDays>2.5</growDays>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowResearchPrerequisites/>
 			<sowTags>
 				<li>Ground</li>
 			</sowTags>
@@ -139,38 +143,40 @@
 			<purpose>Beauty</purpose>
 		</plant>
 	</ThingDef>
-    <ThingDef ParentName="PlantBase">
-        <defName>RG_Plant_Cathedralis</defName>
-        <label>cathedralis</label>
-        <description>A large purple beautiful wildflower that grows in warmer climates.</description>
-        <statBases>
-            <MaxHitPoints>75</MaxHitPoints>
-            <Nutrition>0.16</Nutrition>
+	<ThingDef ParentName="PlantBase">
+		<defName>RG_Plant_Cathedralis</defName>
+		<label>cathedralis</label>
+		<description>A large purple beautiful wildflower that grows in warmer climates.</description>
+		<statBases>
+			<MaxHitPoints>75</MaxHitPoints>
+			<Nutrition>0.16</Nutrition>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
-        </statBases>
-        <graphicData>
-            <texPath>Things/Plant/Cathedralis</texPath>
-            <graphicClass>Graphic_Random</graphicClass>
-        </graphicData>
-        <hideAtSnowDepth>0.6</hideAtSnowDepth>
-        <ingestible />
-        <plant>
-            <fertilityMin>0.05</fertilityMin>
-            <fertilitySensitivity>0</fertilitySensitivity>
-            <growDays>2.5</growDays>
-            <sowTags>
-                <li>Ground</li>
-            </sowTags>
-            <maxMeshCount>16</maxMeshCount>
-            <visualSizeRange>0.3~0.5</visualSizeRange>
-            <topWindExposure>0.3</topWindExposure>
-            <wildClusterRadius>4</wildClusterRadius>
-            <wildClusterWeight>3</wildClusterWeight>
-            <wildOrder>1</wildOrder>
-            <purpose>Beauty</purpose>
-        </plant>
-    </ThingDef>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Plant/Cathedralis</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowDepth>0.6</hideAtSnowDepth>
+		<ingestible/>
+		<plant>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>0</fertilitySensitivity>
+			<growDays>2.5</growDays>
+			<mustBeWildToSow>true</mustBeWildToSow>
+			<sowResearchPrerequisites/>
+			<sowTags>
+				<li>Ground</li>
+			</sowTags>
+			<maxMeshCount>16</maxMeshCount>
+			<visualSizeRange>0.3~0.5</visualSizeRange>
+			<topWindExposure>0.3</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>3</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<purpose>Beauty</purpose>
+		</plant>
+	</ThingDef>
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Cibarius</defName>
 		<label>cibarius</label>
