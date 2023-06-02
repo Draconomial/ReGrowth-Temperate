@@ -30,8 +30,8 @@
 	</ThingDef>
 	<ThingDef ParentName="PlantBase">
 		<defName>RG_Plant_TemperateIvy</defName>
-		<label>Ivy</label>
-		<description>Wild Ivy with leafs that grows in patches of leaves in areas of warm temperatures. Takes a long time to grow, but is very frost-resistant.</description>
+		<label>ivy</label>
+		<description>Wild ivy with leafs that grows in patches of leaves in areas of warm temperatures. Takes a long time to grow, but is very frost-resistant.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Flammability>0.6</Flammability>
